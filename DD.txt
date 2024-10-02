@@ -1,0 +1,99 @@
+PlayMorris
+│
+├── playmorris-backend
+│   ├── controllers
+│   │   ├── donationController.js
+│   │   ├── gameController.js
+│   │   └── suggestionController.js
+│   │
+│   ├── middlewares
+│   │   └── (Esta carpeta podría ser eliminada si no hay otros middlewares)
+│   │
+│   ├── models
+│   │   ├── Donation.js
+│   │   ├── Game.js
+│   │   └── Suggestion.js
+│   │
+│   ├── routes
+│   │   ├── donationRoutes.js
+│   │   ├── gameRoutes.js
+│   │   └── suggestionRoutes.js
+│   │
+│   ├── .env
+│   ├── db.js
+│   ├── node-modules    
+│   ├── package-lock.json  
+│   ├── package.json
+│   └── server.js
+│
+└── playmorris-frontend
+    ├── public
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   ├── logo192.png
+    │   ├── logo512.png
+    │   ├── manifest.json
+    │   └── robots.txt
+    │
+    ├── src
+    │   ├── components
+    │   │   ├── Navbar.css
+    │   │   ├── Navbar.js
+    │   │   ├── Footer.css
+    │   │   ├── DonateModal.js
+    │   │   ├── DonateModal.css
+    │   │   ├── GameDetails.css
+    │   │   ├── GameDetails.js
+    │   │   ├── IosModall.js
+    │   │   ├── MacModal.js
+    │   │   ├── GameCard.js
+    │   │   ├── GameCard.css     
+    │   │   ├── WindowsModal.js
+    │   │   ├── LinuxModal.css
+    │   │   ├── LinuxModal.js
+    │   │   ├── AndroidModal.js
+    │   │   ├── MacModal.js 
+    │   │   └── Footer.js   
+    │   │
+    │   ├── assets
+    │   │   └── images
+    │   │       ├── buttondonate.png
+    │   │       ├── donar.png
+    │   │       ├── youtube.png
+    │   │       ├── imagotipo.png
+    │   │       ├── instagram.png
+    │   │       ├── logo.png
+    │   │       ├── welcome.png
+    │   │       ├── x.png
+    │   │       └── logotipo.png
+    │   │
+    │   ├── pages
+    │   │   ├── EmulatorPage.css
+    │   │   ├── EmulatorPage.js
+    │   │   ├── GamePage.css
+    │   │   ├── GamePage.js
+    │   │   ├── HomePage.css
+    │   │   ├── HomePage.js
+    │   │   ├── RankingPage.css
+    │   │   ├── RankingPage.js
+    │   │   ├── SuggestionsPage.css
+    │   │   ├── SuggestionsPage.js
+    │   │   ├── WelcomePage.css
+    │   │   └── WelcomePage.js
+    │   │
+    │   ├── services
+    │   |    └── api.js
+    │   │
+    │   ├── App.css
+    │   ├── App.js
+    │   ├── App.test.js
+    │   ├── index.css
+    │   ├── index.js
+    │   ├── logo.svg
+    │   ├── reportWebVitals.js
+    │   └── setupTests.js
+    │
+    ├── .gitignore
+    ├── package-lock.json
+    ├── package.json
+    └── README.md

@@ -1,0 +1,90 @@
+.game-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 250px;
+  background: #AFFC41;  /* Color principal */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Añade sombra para profundidad */
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;  /* Animación suave al hacer hover */
+}
+
+.game-card:hover {
+  transform: translateY(-5px);  /* Efecto flotante al hacer hover */
+}
+
+.game-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.game-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.game-rating {
+  color: gold;
+  margin: 5px 0;
+}
+
+.rating-star {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #888;  /* Color gris oscuro para estrellas no seleccionadas */
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 5px 2px;
+}
+
+.rating-star.selected, .rating-star:hover {
+  color: gold;  /* Dorado para estrellas seleccionadas o cuando se pasa el cursor */
+}
+
+.game-info .game-button {
+  display: inline-block;
+  width: calc(50% - 4px);
+  margin: 2px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: white;
+  background-color: #3C1642;  /* Color morado oscuro */
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.game-info .game-button:hover {
+  background-color: #0a3563;  /* Oscurece el morado al hacer hover */
+}
+
+.game-info h3 {
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+.game-rating {
+  color: gold;
+  margin: -8px 0;
+}
+
+.game-info .game-button {
+  margin: 2px;
+  padding: 10px 0;
+}
+.rating-number {
+  font-size: 1.2rem;
+  color: #63310a;  /* Color oscuro para el número de calificación */
+  margin-left: auto;  /* Alinea el número a la derecha de los botones de estrellas */
+}
+.rating-buttons{
+  padding: -5px;
+}

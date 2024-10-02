@@ -1,0 +1,60 @@
+.footer {
+    background-color: #3C1642; /* Color de fondo del footer */
+    color: white;
+    padding: 5px 10px; /* Reducir el padding superior e inferior */
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a lo largo del footer */
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.footer .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer .footer-center {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .footer-center img {
+    width: 30px; 
+    height: 30px;
+    border-radius: 8px;
+}
+
+.footer .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea el contenido a la derecha */
+}
+
+.footer .footer-right .donate-button {
+    background-color: #D3D3D3; /* Color de fondo del botón de donar */
+    color: black;
+    padding: 5px 10px; /* Reducir el padding del botón de donación */
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 5px; /* Espacio entre el botón y el texto reducido */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem; /* Reducir el tamaño de la fuente del botón */
+}
+
+.footer .footer-right .footer-donar {
+    width: 20px; /* Reducir el tamaño del icono de donar */
+    height: 20px;
+    margin-right: 5px; /* Espacio entre el icono y el texto reducido */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.75rem; /* Tamaño de fuente más pequeño para el texto de derechos reservados */
+    line-height: 1.2; /* Reducir la altura de la línea */
+}

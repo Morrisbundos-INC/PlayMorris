@@ -1,0 +1,77 @@
+.navbar {
+    background-color: #3C1642; /* Color de fondo del Navbar */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px; /* Ajuste de padding para dar más espacio en el Navbar */
+    align-items: center;
+    font-family: 'Press Start 2P', monospace; /* Aplicar a todo el Navbar */
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 60px; /* Tamaño del logo */
+    margin-right: 5px; /* Espacio entre el logo y el texto */
+    margin-left: 40px; /* Ajuste de margen izquierdo para alinear mejor el logo */
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+    font-family: 'Press Start 2P', monospace; /* Específicamente para los enlaces */
+}
+
+.nav-links a, .nav-links button {  /* Aplicar estilos a los enlaces y al botón */
+    color: white; /* Color de los enlaces */
+    text-decoration: none;
+    margin: 0 10px; /* Margen entre los enlaces */
+    padding: 8px 16px; /* Tamaño de los enlaces */
+    border-radius: 5px; /* Bordes redondeados de los enlaces */
+    font-size: 14px;
+    transition: background-color 0.3s; /* Transición suave al pasar el cursor */
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    -2px 0 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    0 2px 0 #000,
+    -3px 0 0 #000,
+    3px 0 0 #000,
+    0 -3px 0 #000,
+    0 3px 0 #000;    /* Sombra negra hacia abajo y derecha */
+    background-color: transparent; /* Fondo transparente por defecto */
+}
+
+.nav-links a.donate-button, .nav-links button.donate-button {
+    background-image: url('../assets/images/buttondonate.png'); /* Imagen de fondo del botón */
+    background-size: cover; /* Ajusta la imagen al tamaño del botón */
+    background-position: center; /* Centra la imagen dentro del botón */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio dentro del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición para el hover */
+    border: none; /* Remueve borde por defecto en botones */
+    cursor: pointer; /* Cursor en forma de mano al pasar sobre el botón */
+}
+
+.nav-links a:hover, .nav-links button:hover {
+    background-color: purple; /* Color al pasar el cursor sobre un enlace */
+}
+
+.nav-links a.donate-button:hover, .nav-links button.donate-button:hover {
+    background-color: rgba(29, 211, 176, 0.8); /* Color sobre la imagen al pasar el cursor */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Sombra alrededor del botón */
+}

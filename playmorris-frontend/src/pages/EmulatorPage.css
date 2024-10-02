@@ -1,0 +1,79 @@
+/* src/pages/EmulatorPage.css */
+.emulator-container {
+    background-color: #FFA500; /* Color de fondo naranja */
+    font-family: 'Mulish', sans-serif;
+    padding: 20px;
+    text-align: center; /* Centra todo el contenido del contenedor */
+    color: white;
+    min-height: 90vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Press Start 2P', monospace;
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        -2px 0 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        0 2px 0 #000,
+        -3px 0 0 #000,
+        3px 0 0 #000,
+        0 -3px 0 #000,
+        0 3px 0 #000;
+}
+
+.chooseemulator {
+    text-align: center; /* Asegúrate de que el párrafo también esté centrado */
+    margin: 20px 0; /* Agrega margen para separar visualmente del título */
+    font-weight: bold;
+    text-shadow: 
+    -1px -1px 2px #000,   /* Sombra superior izquierda */
+     1px -1px 2px #000,   /* Sombra superior derecha */
+    -1px  1px 2px #000,   /* Sombra inferior izquierda */
+     1px  1px 2px #000,   /* Sombra inferior derecha */
+    -1px  0   2px #000,   /* Sombra izquierda */
+     1px  0   2px #000,   /* Sombra derecha */
+     0px  1px 2px #000,   /* Sombra inferior */
+     0px -1px 2px #000,   /* Sombra superior */
+     2px  2px 5px rgba(0, 0, 0, 0.7); /* Sombra suave para profundidad */
+}
+
+.emulator-cards {
+    margin-top: 80px;;
+    display: flex;
+    justify-content: center; /* Centra las tarjetas en el contenedor */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en pantallas más pequeñas */
+    gap: 20px; /* Espacio entre tarjetas */
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px; /* Fija un ancho para las tarjetas para consistencia */
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #eee;
+}

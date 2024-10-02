@@ -1,0 +1,87 @@
+/* WelcomePage.css */
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B2FF9E;
+    font-family: 'Mulish';
+    height: 92vh; 
+    box-sizing: border-box;
+}
+
+.descripcion {
+    text-align: justify;
+    padding: 25px;
+    width: 408px;
+    height: 150px;
+    margin-top: -150px;
+}
+
+.descripcion p {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-shadow: 
+    -2px -2px 0 #000,   /* Sombra superior izquierda */
+     2px -2px 0 #000,   /* Sombra superior derecha */
+    -2px  2px 0 #000,   /* Sombra inferior izquierda */
+     2px  2px 0 #000,   /* Sombra inferior derecha */
+    -2px  0   0 #000,   /* Sombra izquierda */
+     2px  0   0 #000,   /* Sombra derecha */
+     0px  2px 0 #000,   /* Sombra inferior */
+     0px -2px 0 #000,   /* Sombra superior */
+     4px  4px 6px rgba(0, 0, 0, 0.5); /* Sombra suave para profundidad */
+}
+
+/* Estilo para los botones */
+.buttons-container {
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    
+}
+
+.btn {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: 3px solid #000000;
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bg-yellow-400 {
+    background-color: #fbbf24; /* Color de fondo amarillo */
+}
+
+.bg-yellow-400:hover {
+    background-color: #facc15; /* Color al pasar el mouse por encima */
+}
+
+.bg-cyan-400 {
+    background-color: #22d3ee; /* Color de fondo cian */
+}
+
+.bg-cyan-400:hover {
+    background-color: #06b6d4; /* Color al pasar el mouse por encima */
+}
+
+.text-black {
+    color: rgb(255, 255, 255); /* Color del texto */
+    font-family: 'Press Start 2P', monospace; 
+    font-size: 12px;
+    text-shadow: 
+        -1px -1px 0 #000,  /* Sombra superior izquierda */
+        1px -1px 0 #000,   /* Sombra superior derecha */
+        -1px 1px 0 #000,   /* Sombra inferior izquierda */
+        1px 1px 0 #000,    /* Sombra inferior derecha */
+        -2px -2px 0 #000,  /* Segunda sombra superior izquierda */
+        2px -2px 0 #000,   /* Segunda sombra superior derecha */
+        -2px 2px 0 #000,   /* Segunda sombra inferior izquierda */
+        2px 2px 0 #000,    /* Segunda sombra inferior derecha */
+        3px 3px 5px rgba(0, 0, 0, 0.5); /* Sombra suave para el efecto tridimensional */
+}

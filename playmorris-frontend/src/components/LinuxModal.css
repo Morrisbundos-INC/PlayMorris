@@ -1,0 +1,28 @@
+/* src/components/LinuxModal.css */
+.command-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .command-container code {
+    background-color: #1b1818;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold; /* Hacer el texto en negrita */
+  }
+  
+  .copy-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3;
+  }
+  
