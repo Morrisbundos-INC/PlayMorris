@@ -11,12 +11,12 @@ const Welcome = () => {
             un espacio dedicado a los gamers de la vieja escuela, donde podrás descargar toneladas
             de ROMs de tus juegos favoritos de forma gratuita.</p>
         <div className="buttons-container">
-          <a href="/games" className="btn bg-yellow-400 hover:bg-yellow-300 text-black">
+          <Link to="/games" className="btn bg-yellow-400 hover:bg-yellow-300 text-black">
             Explorar Juegos
-          </a>
-          <a href="/emulator" className="btn bg-cyan-400 hover:bg-cyan-300 text-black">
+          </Link>
+          <Link to="/emulator" className="btn bg-cyan-400 hover:bg-cyan-300 text-black">
             Descargar Emulador
-          </a>
+          </Link>
         </div>
       </div>
       
